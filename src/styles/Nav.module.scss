@@ -1,0 +1,55 @@
+@import './Variable.scss';
+.nav{
+    width: 90%;
+    margin: 1.5rem auto;
+    display: grid;
+    grid-template-columns: 15% 75% 1fr;
+    position: relative;
+    .logo{
+        display: flex;
+        flex-direction: row;
+        height: 32px;
+    }
+    .nav_menu{
+        display: flex;
+        align-items: center;
+        position: relative;
+        a{
+            color: #1D1D1D;
+            text-decoration: none;
+            margin: 0 8px;
+            cursor: pointer;
+        }
+        .product_list{
+            top: 120%;
+            left: 0px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 10px 5px rgba(0, 0, 0, 0.05);
+            border-radius: 5px;
+            padding: 1rem 1rem;
+            a{
+                width: 15rem;
+                margin: 0.5rem 0px;
+            }
+        }
+    }
+    .nav_btns{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        a{
+            color: $main-dark;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        a:last-of-type{
+            background-color: $alt-theme-color;
+            color: $theme-color;
+            padding: 4px 8px;
+            text-decoration: none;
+        }
+    }
+}
