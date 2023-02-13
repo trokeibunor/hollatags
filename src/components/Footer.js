@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import logo from '../../public/logo.png';
+import logo from '../../public/logoNav.svg';
 // import caratDown from '../../public/icons/carat_down.svg'
 
 import slack from '../../public/icons/slack_bw.svg';
@@ -12,7 +12,7 @@ export default function Footer(){
     return (
         <footer className={style.footer}>
                 <div className={style.footer_grid}>
-                    <div className={style.location}>
+                    <div className={[style.location, style.fg].join("")}>
                         <Image src={logo} alt="" />
                         <p> 
                             9, Mike Ejezie Street <br />
