@@ -35,15 +35,15 @@ export default function Nav(){
                         <h5>SMS</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </Link>
-                    <Link href="#" onClick={ToggleDropdown}>
+                    <Link href="/Products/ussd" onClick={ToggleDropdown}>
                         <h5>USSD</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </Link>
-                    <Link href="#" onClick={ToggleDropdown}>
+                    <Link href="/Products/ivr" onClick={ToggleDropdown}>
                         <h5>IVR</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </Link>
-                    <Link href="#" onClick={ToggleDropdown}>
+                    <Link href="/Products/carrier" onClick={ToggleDropdown}>
                         <h5>Carrier Billing</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </Link>

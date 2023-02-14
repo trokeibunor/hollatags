@@ -40,10 +40,10 @@
                         margin-left: 4px;
                     }
                 }
-                a:last-of-type{
-                    color: $theme-color;
-                    background-color: $alt-white;
-                }
+                // a:last-of-type{
+                //     color: $theme-color;
+                //     background-color: $alt-white;
+                // }
               }
         }
         .heroImg{
@@ -51,53 +51,6 @@
             object-fit: contain;
             height: auto;
         }
-    }
-    .composer{
-        width: 100%;
-        margin: 3rem auto;
-        padding: 2rem 0px;
-        text-align: center;
-        position: relative;
-        background-color: #fdfdfd;
-        .grid_holder{
-            width: 80%;
-            margin: auto;
-        }
-        .intro{
-            width: 70%;
-            margin: 0 auto;
-        }
-        .grid_tab{
-            width: 80%;
-            margin: auto;
-            .img{
-                width: 100%;
-                height: auto;
-                object-fit: contain;
-            }
-        }
-        .cover_tab{
-            width: 100%;
-            background-color: $white;
-            box-shadow: 0px -10px 20px -20px rgba(0, 0, 0, 0.4);
-            position: absolute;
-            bottom: 0;
-            padding: 2rem;
-            z-index: 1;
-            text-align: left;
-            div{
-                width: 80%;
-                margin: 0 auto;
-                .sms_brand{
-                    width: 100%;
-                    height: auto;
-                }
-            }
-        }
-    }
-    .diGrider{
-        width: 80%;
-        margin: 1rem auto 3rem;
     }
     .testimonial{
         width: 100%;
