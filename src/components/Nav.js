@@ -14,9 +14,9 @@ export default function Nav(){
     }
     return (
         <nav className={style.nav}>
-            <div className="logo">
+            <Link className="logo" href='/'>
                 <Image src={logo} alt=""/>
-            </div>
+            </Link>
             <div className={style.nav_menu}>
                 <Link href="#" id='product_menu' onClick={ToggleDropdown}>
                     Products

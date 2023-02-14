@@ -6,6 +6,8 @@ import Head from 'next/head';
 import Grider from '@/components/Grider';
 import DiGrid from '@/components/DiGrid';
 import TeamTestimonial from '@/components/TeamTestimonial';
+import BlogPostLg from '@/components/BlogPostLg';
+import BlackContact from '@/components/BlackContact';
 // Images
 import HeroImg from '@/../public/sms_hero_image.png';
 import ComposeImg from '@/../public/compose_img.png';
@@ -55,6 +57,12 @@ export default function Sms(){
                 </section>
                 <section className={style.testimonial}>
                     <TeamTestimonial/>
+                </section>
+                <section className={style.blogPost}>
+                    <BlogPostLg/>
+                </section>
+                <section className={style.blc}>
+                    <BlackContact/>
                 </section>
             </div>
         </>
