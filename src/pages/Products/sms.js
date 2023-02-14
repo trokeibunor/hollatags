@@ -8,6 +8,8 @@ import DiGrid from '@/components/DiGrid';
 import TeamTestimonial from '@/components/TeamTestimonial';
 import BlogPostLg from '@/components/BlogPostLg';
 import BlackContact from '@/components/BlackContact';
+import CaseCard from '@/components/CaseCard';
+import TopContact from '@/components/TopContact';
 // Images
 import HeroImg from '@/../public/sms_hero_image.png';
 import ComposeImg from '@/../public/compose_img.png';
@@ -64,6 +66,16 @@ export default function Sms(){
                 <section className={style.blc}>
                     <BlackContact/>
                 </section>
+                <section className={style.case}>
+                    <h2>View Case studies on our clients solutions</h2>
+                    <div className='casegrid'>
+                        <CaseCard color="#EEF7FF"/>
+                        <CaseCard color="#FBEEEF"/>
+                        <CaseCard color="#F8F4F7"/>
+                        <CaseCard color="#FFE4F8"/>
+                    </div>
+                </section>
+                <TopContact/>
             </div>
         </>
     )

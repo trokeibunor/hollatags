@@ -31,19 +31,19 @@ export default function Nav(){
                 </Link>
                 <Link href="#">Contact Sales</Link>
                 {dropShown && <div className={style.product_list}>
-                    <Link href="/Products/sms">
+                    <Link href="/Products/sms" onClick={ToggleDropdown}>
                         <h5>SMS</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </Link>
-                    <Link href="#">
+                    <Link href="#" onClick={ToggleDropdown}>
                         <h5>USSD</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </Link>
-                    <Link href="#">
+                    <Link href="#" onClick={ToggleDropdown}>
                         <h5>IVR</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </Link>
-                    <Link href="#">
+                    <Link href="#" onClick={ToggleDropdown}>
                         <h5>Carrier Billing</h5>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
                     </Link>
