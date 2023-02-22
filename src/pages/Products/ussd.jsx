@@ -22,7 +22,7 @@ export default function ussd(){
     return (
         <>
             <Head>
-                HollaTags -- Product USSD
+               <title> HollaTags -- Product USSD</title>
             </Head>
             <div className={style.container}>
             <section className={style.hero}>

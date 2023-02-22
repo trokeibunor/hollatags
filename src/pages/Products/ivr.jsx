@@ -22,7 +22,7 @@ export default function ivr(){
     return (
         <>
             <Head>
-                HollaTags -- Product IVR
+                <title>HollaTags -- Product IVR</title>
             </Head>
             <div className={style.container}>
             <section className={style.hero}>

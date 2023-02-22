@@ -22,7 +22,7 @@ export default function Nav(){
                     Products
                     <Image src={caratDown} alt="" />
                 </Link>
-                <Link href="#">Customers</Link>
+                <Link href="/Customers/customer">Customers</Link>
                 <Link href="#">Pricing</Link>
                 <Link href="#">Developer APIs</Link>
                 <Link href="#">

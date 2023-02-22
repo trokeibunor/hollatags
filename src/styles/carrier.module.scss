@@ -52,6 +52,27 @@
             height: auto;
         }
     }
+    .fway{
+        width: 80%;
+        margin: 1rem auto;
+        padding: 1rem 0px;
+        border-top: 1px solid hsla(0, 0%, 0%, 0.2);
+        .fwayGrid{
+            margin: 1rem 0px 4rem;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 2rem;
+            row-gap: 2rem;
+            .fwayCon{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                h3{
+                    margin: 0.5rem 0px;
+                }
+            }
+        }
+    }
     .testimonial{
         width: 100%;
         margin: 1rem auto;
