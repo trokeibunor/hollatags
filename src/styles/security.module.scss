@@ -1,0 +1,74 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    .sec_hero{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        height: 60vh;
+        column-gap: 1rem;
+        align-items: center;
+        .hero_img{
+            width: 100%;
+            object-fit: cover;
+            height: auto;
+        }
+        .text_section{
+            h1{
+                width: 60%;
+                margin: 1rem 0px;
+            }
+            p{
+                width: 80%;
+                margin: 2rem 0;
+                line-height: 140%;
+            }
+        }
+    }
+    .social_proof{
+        text-align: center;
+        img{
+            width: 100%;
+            height: auto;;
+        }
+    }
+    .info{
+        width: 100%;
+        margin: 7rem auto;
+        .info_content{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            column-gap: 1rem;
+            row-gap: 2rem;
+            .info_group{
+                img{
+                    width: 16px;
+                    height: 16px;
+                }
+                #intro{
+                    font-family: 'Tillium Web', sans-serif;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}
+.legal{
+    width: 100%;
+    background-color: #F9FCFF;
+    padding: 3.5rem 0px;
+    .legal_con{
+        width: 75%;
+        margin: 0 auto;
+        p{
+            margin: 0.5rem 0;
+        }
+    }
+}
+.case{
+    width: 80%;
+    margin: 2rem auto;
+    text-align: left;
+}
