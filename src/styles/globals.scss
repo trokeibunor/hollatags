@@ -339,3 +339,108 @@ section{
     text-decoration: none;
   }
 }
+// 8. Blog Post Card
+.bpcCont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 1.5rem 0px;
+  .bpAuth{
+    display: flex;
+    align-items: flex-start;
+    .bpAuthImg{
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      margin-right: 4px;
+    }
+    h3,p{
+      margin: 0;
+    }
+    h3.bpdesc{
+      width: 95%;
+    }
+    p{
+      color: #5B8582;
+      margin-bottom: 1rem;
+    }
+    .bpAuth_detail{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+// 9. Blog Grid Card
+.blogPostGrid{
+  width: 100%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+}
+.bpgcCont{
+  width: 100;
+  .bpgImage{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .auth{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    .auth_content{
+      display: flex;
+      align-items: center;
+      .authImage{
+        width: 48px;
+        height: 48px;
+        margin-right: 8px;
+        border-radius: 50%;
+      }
+      .auth_con{
+        display: flex;
+        flex-direction: column;
+      }
+    }
+    .notif_bell{
+      cursor: pointer;
+    }
+  }
+}
+// 10. Subscribe to Newsletter
+.newsCon{
+  width: 80%;
+  margin: 3rem auto;
+  padding: 3rem 0px;
+  text-align: center;
+  background-image: url(../../public/topFotbackground.png);
+  p{
+    opacity: 0.8;
+    margin: 0.5rem;
+  }
+  .formHolder{
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    #textInput{
+      width: 75%;
+      margin-right: 4px;
+      padding: 10px 8px;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+    }
+    #submit{
+      width: 20%;
+      padding: 10px 16px;
+      color: $white;
+      background-color: $theme-color;
+      outline: none;
+      border: none;
+      border-radius: 4px;
+    }
+  }
+}
