@@ -1,88 +1,60 @@
-
+@import "./Variable.scss";
 .container{
-    width: 45%;
-    margin: auto;
-    text-align: left;
-    .name{
-        width: auto;
+    width: 100%;
+    margin: 0 auto;
+    .featured{
+        width: 70%;
+        margin: 1rem auto;
+        h3#featured{
+            margin-bottom: 0.5rem;
+        }
+        .featured_image{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        h2{
+            margin: 1rem 0px;
+        }
     }
-    .intro_text{
-        font-size: 18px;
+    .topReads{
+        width: 70%;
+        margin: 0 auto;
+        padding: 0.5rem 0px;
+        #intro{
+            border-bottom: 1px solid hsla(0, 0%, 0%, 0.2);
+            padding-bottom: 0.5rem;
+        }
     }
-    .author_intro{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: 1rem 0px;
-        .author_details{
+    .toggler{
+        width: 70%;
+        margin: 0 auto;
+        border-top: 1px solid hsla(0, 0%, 0%, 0.2);;
+        .topRow{
             display: flex;
             align-items: center;
-            .auth_img{
-                width: 48px;
-                height: 48px;
-                border-radius: 50%;
+            gap: 8px;
+            margin: 0.5rem 0px;
+            img,p{
+                cursor: pointer;
             }
-            .auth_talk{
-                display: flex;
-                flex-direction: column;
-                margin-left: 8px;
-                .auth_name{
-                    font-weight: bold;
-                    margin: 4px 0px;
-                }
-                .oth{
-                    color: hsla(176, 19%, 44%, 1);
-                }
+            #tog_asc{
+                width: 16px;
+                height: 16px;
+                // border: 1px solid hsla(0, 0%, 0%, 0.2);
+                // padding: 4px 8px;
+            }
+            p{
+                padding: 4px 8px;
+                border: 1px solid hsla(0, 0%, 0%, 0.2);
+                border-radius: 4px;
+            }
+            p.active{
+                background-color: $alt-theme-color;
+                color: $theme-color;
+                border: 1px solid $alt-theme-color;
+                font-weight: 600;
             }
         }
-        
-    }
-    .notif_image{
-        cursor: pointer;
-    }
-    .bg_image{
-        width: 100%;
-        margin: 1rem 0px;
-    }
-    p,h2,h3,h4,h5,h6{
-        margin: 1rem 0px;
-    }
-    blockquote{
-        font-size: 48px;
-        font-style: italic;
-        line-height: 110%;
-        margin: 1.5rem 0px;
-        font-family: 'Titillium Web', sans-serif;
-        color: #5B8582
-    }
-    .otherAritcles{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-}
-.btm_con{
-    background-color: #f9f9f9;
-    padding: 2.5rem 0;
-    width: 100%;
-    .btn_con_intro{
-        display: flex;
-        justify-content: space-between;
-        width: 80%;
-        margin: auto;
-        a{
-            text-decoration: none;
-            color: #2F80ED;
-        }
-    }
-    hr{
-        opacity: 0.7;
-        width: 80%;
-        margin: 0.5rem auto;
-    }
-    .btm_con_top{
-        width: 80%;
-        margin: 0 auto;
-        
     }
 }

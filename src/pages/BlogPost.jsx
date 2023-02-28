@@ -1,5 +1,5 @@
 import Head from "next/head"
-import style from "@/styles/Blog.module.scss"
+import style from "@/styles/BlogPost.module.scss"
 import Image from "next/image"
 import Link from "next/link"
 
