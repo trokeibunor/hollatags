@@ -1,0 +1,39 @@
+@import "./Variable.scss";
+.container{
+    width: 80%;
+    margin: 0 auto;
+    .lang_form{
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem 0px;
+        width: 100%;
+        small{
+            color: hsla(0, 0, 0, 0.4)
+        }
+        select{
+            border: none;
+            outline: none;
+            background-color: hsla(0, 0, 0, 0.1);
+            width: 20%;
+            padding: 8px;
+            border-radius: 4px;
+        }
+    }
+    .user_help{
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        p,a{
+            color: $main_dark;
+        }
+    }
+    h3.intro_talk{
+        margin: 0.5rem 0px;
+    }
+    .content{
+        margin: 1.5rem 0px;
+        p{
+            margin: 0.5rem 0px;
+        }
+    }
+}
